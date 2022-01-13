@@ -2,6 +2,10 @@ import os
 import sys
 import re
 
+if len(sys.argv <= 1):
+    print("Usage: archive-rip.py /directory/of/website/ myfake@email.com(optional)")
+    exit
+
 directory = sys.argv[1]
 email = '@us.gmail.com'
 if len(sys.argv) == 3:
