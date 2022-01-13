@@ -3,7 +3,7 @@ import sys
 import re
 
 if len(sys.argv <= 1):
-    print("Usage: archive-rip.py /directory/of/website/ myfake@email.com(optional)")
+    print("Usage: archive-rip.py /directory/of/website/ @fake.email.com(optional)")
     exit
 
 directory = sys.argv[1]
